@@ -1,3 +1,31 @@
+# React Portfolio Project
+
+The purpose of this repo is to learn the basics of using ReactJS and developing a new portfolio to eventually publish.
+
+## Basic File Structure:
+
+###portfolio (parent directory)
+├── README.md (description of the project for GitHUb)
+├── node_modules (stores all dependent modules for the project)
+├── package.json (stores all meta information of the prokect like dependencies,version,revisions etc.)
+├── .gitignore (files declared here will be ignored while uploading to GitHub like node_modules 
+├── public (here you will store all images,JS,CSS files) 
+│   ├── favicon.ico
+│   ├── index.html
+│   └── manifest.json 
+└── src (our main code for app lies here)
+    ├── {create component folder here}
+    ├── App.css
+    ├── App.js
+    ├── App.test.js
+    ├── index.css
+    ├── index.js
+    ├── logo.svg
+    └── serviceWorker.js
+
+
+/////------- Boilerplate Below -------\\\\\
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
